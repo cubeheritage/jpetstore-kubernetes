@@ -1,4 +1,4 @@
-In a few seconds, your application should be live at:
+Your application will be available shortly at:
 {{- if .Values.ingress.enabled }}
   {{- range .Values.ingress.hosts }}
     http://{{ . }}{{ $.Values.ingress.path }}/
