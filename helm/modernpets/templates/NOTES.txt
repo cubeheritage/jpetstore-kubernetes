@@ -1,4 +1,4 @@
-Your application will be available at:
+Your application can be accessed at:
 {{- if .Values.ingress.enabled }}
   {{- range .Values.ingress.hosts }}
     http://{{ . }}{{ $.Values.ingress.path }}/
